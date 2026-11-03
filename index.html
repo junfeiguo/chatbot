@@ -404,6 +404,7 @@ html{scroll-behavior:smooth}
 .jcard:hover{transform:translateY(-4px);box-shadow:0 16px 30px rgba(20,35,28,.14)}
 @media(max-width:780px){.gal{columns:2}.parallax{background-attachment:scroll;padding:80px 18px}}
 </style>
+<link rel="stylesheet" href="backend/site-hooks.css">
 </head>
 <body>
 <div class="demo">◆ Concept v6 — styled closely on the client's reference site, now with full online ordering, delivery & demo checkout; <b>all words, dishes &amp; photos are Namak Mandi's own</b>. Demo only: nothing is sent or charged. ◆</div>
@@ -1533,6 +1534,9 @@ document.querySelectorAll("section .wrap>*,.gal figure,.trip figure,.parallax .q
 <script>window.NM_CHAT = { endpoint: "" };</script>
 <script src="chatbot/knowledge.js"></script>
 <script src="chatbot/chatbot.js" defer></script>
-  
+<script src="backend/config.js"></script>
+<script src="backend/vendor/supabase.js"></script>
+<script src="backend/nm-backend.js"></script>
+<script src="backend/site-hooks.js"></script> 
 </body>
 </html>
